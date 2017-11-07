@@ -1,0 +1,30 @@
+<html>
+<style>
+  body{
+  background-color:#000000
+ }
+.center {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -150px;
+}
+.centeredtext {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -150px;
+}
+ </style>
+ <body>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8Y8_J7zOwb7wc2GguyYgXa0_3qaZfVx5qEGPBXl7aSMvf4GX3g" class="center">
+ 
+ <div>
+ <p>
+ <font color="White" size="20" class="centeredtext">This is some text</font>
+ 
+ </p>
+ </body>
+ </html>

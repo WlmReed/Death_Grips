@@ -12,8 +12,15 @@
 }
 .centeredtext {
   position: fixed;
-  top: 40%;
-  left: 50%;
+  top: 50%;
+  left: 47%;
+  margin-top: -50px;
+  margin-left: -150px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 47%;
   margin-top: -50px;
   margin-left: -150px;
 }
@@ -39,6 +46,6 @@ function PlaySound() {
  </body>
  <body>
 <audio id="dg"> </audio>
-<button onclick="PlaySound"> Listen </button>
+<button onclick="PlaySound" class="centered"> Listen </button>
 </body>
  </html>

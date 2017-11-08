@@ -18,14 +18,27 @@
   margin-left: -150px;
 }
  </style>
+ <script>
+function PlaySound() {
+    alert("Playing now");
+  var dg = new audio();
+  dg.src = "Death_Grips_-_The_Fever_Aye_Aye_Instrumental[Mp3Converter.net].mp3";
+  document.getElementById(dg);
+  dg.Play();
+}
+</script>
  <body>
  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8Y8_J7zOwb7wc2GguyYgXa0_3qaZfVx5qEGPBXl7aSMvf4GX3g" class="center">
  
  <div>
  <p>
- <font color="White" size="20" class="centeredtext">This is some text</font>
+ <font color="White" size="20" class="centeredtext">DEATH GRIPS</font>
  </p>
  <p> 
  <font color="Red" size="10" class"noided">NOIDED.NOIDED.NOIDED.NOIDED.NOIDED.NOIDED.NOIDED.
  </body>
+ <body>
+<audio id="dg"> </audio>
+<button onclick="PlaySound"> Listen </button>
+</body>
  </html>

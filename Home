@@ -24,6 +24,13 @@
   margin-top: -50px;
   margin-left: -150px;
 }
+.centered2 {
+  position: fixed;
+  top: 55%;
+  left: 47%;
+  margin-top: -50px;
+  margin-left: -150px;
+}
  </style>
  <script>
 function PlaySound() {
@@ -32,6 +39,15 @@ function PlaySound() {
   dg.src = "Death_Grips_-_Known_for_it_instrumental[Mp3Converter.net].mp3";
   document.getElementById(dg);
   dg.Play();
+}
+</script>
+<script>
+function PlaySound2() {
+    alert("Playing now");
+  var dg2 = new audio();
+  dg2.src = "Death_Grips_-_The_Fever_Aye_Aye_Instrumental[Mp3Converter.net].mp3";
+  document.getElementById(dg2);
+  dg2.Play();
 }
 </script>
  <body>
@@ -46,6 +62,8 @@ function PlaySound() {
  </body>
  <body>
 <audio id="dg"> </audio>
-<button onclick="PlaySound" class="centered"> Listen </button>
+<button onclick="PlaySound" class="centered"> Known for it </button>
+<audio id="dg2"> </audio>
+<button onclick="PlaySound2" class="centered2"> The Fever </button>
 </body>
  </html>

@@ -20,24 +20,32 @@
 .centered {
   position: fixed;
   top: 60%;
-  left: 55%;
+  left: 53%;
   margin-top: -50px;
   margin-left: -150px;
 }
 .centered2 {
   position: fixed;
   top: 65%;
-  left: 55%;
+  left: 53%;
   margin-top: -50px;
   margin-left: -150px;
 }
 .centered3 {
   position: fixed;
   top: 70%;
-  left: 55%;
+  left: 53%;
   margin-top: -50px;
   margin-left: -150px;
 }
+.noided{
+  font-style: italic;
+  position: fixed;
+  top: 90%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -150px;
+ }
  </style>
  <script>
 function PlaySound() {
@@ -69,10 +77,10 @@ function PlaySound3() {
  
  <div>
  <p>
- <font color="White" size="20" class="centeredtext">DEATH GRIPS</font>
+ <font color="White" size="20" class="centeredtext"> DEATH GRIPS </font>
  </p>
  <p> 
- <font color="Red" size="10" class"noided">KNOWN FOR IT KNOWN FOR IT KNOWN FOR IT KNOWN FOR IT 
+ <font color="Red" size="10" class=""> KNOWN FOR IT KNOWN FOR IT KNOWN FOR IT KNOWN FOR IT</font 
  </body>
  <body>
 <audio id="dg"> </audio>
@@ -82,4 +90,6 @@ function PlaySound3() {
 <audio id="dg3"> </audio>
 <button onclick="PlaySound2" class="centered3"> Culture Shock </button>
 </body>
+<body>
+<font color="White" size="20" class="noided"> My Favorite Flatlander Beats </font>
  </html>
